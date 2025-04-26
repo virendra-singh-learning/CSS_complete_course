@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    /* background-color: pink; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+}
+.navbar {
+    background-color: black;
+    max-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    position: sticky;
+    top: 0;
+}
+.leftNav {
+    display: flex;
+    gap: 15px;
+}
+.leftNav img:nth-child(2) {
+    width: 90px;
+}
+.centerNav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.centerNav > input {
+    background-color: #0e0e0e;
+    border: 2px solid #212121;
+    width: 50%;
+    font-size: 17px;
+    padding: 5px 15px;
+    /* border: none; */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.centerNav img:nth-child(2) {
+    padding: 10px;
+    background-color: #212121;
+    border-radius: 0 20px 20px 0;
+}
+.centerNav img:nth-child(3) {
+    margin-left: 10px;
+    /* background-color: #212121; */
+}
+.rightNav {
+    display: flex;
+    gap: 15px;
+}
+.rightNav img:nth-child(3) {
+    width: 30px;
+    border-radius: 50%;
+}
+.ytPremium {
+    /* background-color: red; */
+    font-family: Roboto, Arial, sans-serif;
+    height: 61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.ytDesc > h1 {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 3.2rem;
+}
+.ytPremiumDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.ytPremiumDetails > button {
+    padding: 2px 15px;
+    border-radius: 20px;
+    width: 39%;
+    border: none;
+    font-weight: 600;
+    background-color: #3ea6ff;
+}
+
+.ytPremiumDetails > :nth-child(2) {
+    font-size: 18px;
+    font-weight: 100;
+}
+.ytPremiumDetails span {
+    color: #3EA6FF;
+}
+.ytPremiumDetails > :nth-child(4) {
+    font-size: 12px;
+}
+
+.features {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 39%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.features div:nth-child(1), .features div:nth-child(2), .features div:nth-child(3){
+    width: 18%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features div:nth-child(1) > p, .features div:nth-child(2) > p, .features div:nth-child(3) >p {
+    color: rgba (226, 226, 226, 0.711);
+}
+.bgOne {
+    background-image: url(assets/bg1.jpeg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.bgTwo {
+    background-image: url(assets/bg2.jpeg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.bgThree {
+    background-image: url(assets/bg3.jpeg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.bgFour {
+    background-image: url(assets/bg4.jpeg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.bgOne > div > h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.bgOne > div > p {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.bgOne > div {
+    padding: 170px 0px 0px 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bgTwo > div > h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.bgTwo > div > p {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.bgTwo > div {
+    padding: 180px 0px 0px 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bgThree > div > h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.bgThree > div > p {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.bgThree > div {
+    padding: 170px 0px 0px 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.bgFour > div > h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.bgFour > div > p {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.bgFour > div {
+    padding: 180px 0px 0px 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer {
+    background-color:black;
+    color: white;
+    height: 50%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .arrow_icon {
+    width: 15px;
+    height: 14px;
+} */
+
+.point1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: lighter;
+}
+
+hr {
+    width: 100%;
+    opacity: .7;
+}
+
+.points {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    /* align-content: center; */
+}
+
+.faq {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    padding: 40px;
+    /* align-items: center; */
+}
+.faqSub {
+    display: flex;
+    justify-content: flex-start;
+}
